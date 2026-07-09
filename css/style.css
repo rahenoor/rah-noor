@@ -1,1 +1,228 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
+
+body {
+
+    font-family: Tahoma, Arial, sans-serif;
+
+    background:
+    linear-gradient(
+        135deg,
+        #062b1f,
+        #0b5139
+    );
+
+    color: #ffffff;
+
+    min-height: 100vh;
+
+    padding-bottom: 80px;
+
+}
+
+
+/* هدر */
+
+.header {
+
+    text-align: center;
+
+    padding: 25px 15px;
+
+    background:
+
+    rgba(0,0,0,0.25);
+
+    border-bottom:
+
+    1px solid rgba(212,175,55,0.3);
+
+}
+
+
+.header h1 {
+
+    color: #d4af37;
+
+    font-size: 32px;
+
+    margin-bottom: 10px;
+
+}
+
+
+.header p {
+
+    color: #eee;
+
+}
+
+
+
+/* کارت ها */
+
+main {
+
+    padding: 15px;
+
+}
+
+
+.card {
+
+    background:
+
+    rgba(255,255,255,0.08);
+
+    backdrop-filter: blur(10px);
+
+    border-radius: 20px;
+
+    padding: 20px;
+
+    margin-bottom: 15px;
+
+    border:
+
+    1px solid rgba(212,175,55,0.35);
+
+    box-shadow:
+
+    0 8px 25px rgba(0,0,0,0.25);
+
+    animation:
+
+    fadeIn .6s ease;
+
+}
+
+
+.card h2 {
+
+    color:#d4af37;
+
+    margin-bottom:15px;
+
+    font-size:20px;
+
+}
+
+
+.card p,
+.card div {
+
+    font-size:18px;
+
+    line-height:2;
+
+}
+
+
+
+/* منوی پایین */
+
+.bottom-nav {
+
+
+    position:fixed;
+
+    bottom:0;
+
+    right:0;
+
+    left:0;
+
+
+    height:70px;
+
+
+    background:
+
+    rgba(0,0,0,0.55);
+
+
+    backdrop-filter:blur(12px);
+
+
+    display:flex;
+
+    justify-content:space-around;
+
+    align-items:center;
+
+
+    border-top:
+
+    1px solid rgba(212,175,55,0.3);
+
+
+}
+
+
+
+.bottom-nav button {
+
+
+    background:none;
+
+    border:none;
+
+    color:white;
+
+    font-size:13px;
+
+    cursor:pointer;
+
+
+}
+
+
+
+.bottom-nav button:hover {
+
+
+    color:#d4af37;
+
+
+}
+
+
+
+/* انیمیشن */
+
+@keyframes fadeIn {
+
+
+from {
+
+opacity:0;
+
+transform:translateY(20px);
+
+}
+
+
+to {
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+
+}
+
+
+
+/* رنگ طلایی */
+
+.gold {
+
+color:#d4af37;
+
+}
