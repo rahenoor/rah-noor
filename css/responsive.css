@@ -1,1 +1,120 @@
+/* موبایل کوچک */
 
+@media (max-width: 480px) {
+
+
+    .header h1 {
+
+        font-size:26px;
+
+    }
+
+
+    .header p {
+
+        font-size:14px;
+
+    }
+
+
+    .card {
+
+        padding:15px;
+
+        border-radius:16px;
+
+    }
+
+
+    .card h2 {
+
+        font-size:18px;
+
+    }
+
+
+    .card p,
+    .card div {
+
+        font-size:16px;
+
+    }
+
+
+    .bottom-nav {
+
+        height:65px;
+
+    }
+
+
+    .bottom-nav button {
+
+        font-size:11px;
+
+    }
+
+}
+
+
+
+/* موبایل بزرگ و تبلت */
+
+@media (min-width:481px) and (max-width:900px) {
+
+
+    main {
+
+        max-width:700px;
+
+        margin:auto;
+
+    }
+
+
+    .card {
+
+        padding:22px;
+
+    }
+
+}
+
+
+
+/* دسکتاپ */
+
+@media (min-width:901px) {
+
+
+    main {
+
+        max-width:1000px;
+
+        margin:auto;
+
+    }
+
+
+    .card {
+
+
+        padding:30px;
+
+    }
+
+
+    .bottom-nav {
+
+
+        width:600px;
+
+        left:50%;
+
+        transform:translateX(-50%);
+
+        border-radius:20px 20px 0 0;
+
+    }
+
+}
